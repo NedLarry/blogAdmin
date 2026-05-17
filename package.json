@@ -1,0 +1,25 @@
+{
+  "name": "simple-thoughts",
+  "version": "1.0.0",
+  "description": "A website with consolidated opinions and thoughts",
+  "license": "ISC",
+  "author": "nedlarry",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "hbs": "^4.2.0",
+    "helmet": "^8.1.0",
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.2.3",
+    "validator": "^13.15.26"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
